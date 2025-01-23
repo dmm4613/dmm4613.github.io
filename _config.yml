@@ -1,6 +1,58 @@
 title: Dan
 logo: assets/images/profile_pic.png
-show_downloads: True
+
+# Specify the Cayman theme via the remote theme plugin
 remote_theme: pages-themes/cayman@v0.2.0
+
+# Plugins for additional functionality
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag    # Improves SEO for your site
+  - jekyll-sitemap    # Generates a sitemap for search engines
+  - jekyll-feed       # Adds an RSS feed
+  - jekyll-assets     # For managing assets (optional)
+  - jekyll-paginate   # Enables pagination for blog-like setups
+
+# Optional: Navigation links
+navigation_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Contact
+    url: /contact/
+
+# Enable/disabling features
+show_downloads: true  # Whether to show download links on your pages
+
+# Optional: Social links
+social_links:
+  - name: GitHub
+    url: https://github.com/dmm4613
+  - name: LinkedIn
+    url: https://linkedin.com/in/danmillerdev
+
+# # Markdown configuration
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+
+# Optional: Set base URL if hosted under a subpath
+# Uncomment and set baseurl if applicable
+# baseurl: "/repo-name"
+
+# Add meta description and keywords for better SEO
+description: "A description of Dan's website for showcasing projects and sharing ideas."
+keywords:
+  - portfolio
+  - projects
+  - GitHub Pages
+
+# Exclude unnecessary files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

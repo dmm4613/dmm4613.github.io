@@ -2,7 +2,7 @@ title: Dan
 logo: assets/images/profile_pic.png
 
 # Specify the Cayman theme via the remote theme plugin
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Plugins for additional functionality
 plugins:

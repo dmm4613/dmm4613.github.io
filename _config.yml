@@ -9,20 +9,14 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag    # Improves SEO for your site
   - jekyll-sitemap    # Generates a sitemap for search engines
-  - jekyll-feed       # Adds an RSS feed
-  - jekyll-assets     # For managing assets (optional)
-  - jekyll-paginate   # Enables pagination for blog-like setups
+
 
 # Optional: Navigation links
 navigation_links:
   - title: Home
     url: /
-  - title: About
-    url: /about/
   - title: Projects
     url: /projects/
-  - title: Contact
-    url: /contact/
 
 # Enable/disabling features
 show_downloads: true  # Whether to show download links on your pages
